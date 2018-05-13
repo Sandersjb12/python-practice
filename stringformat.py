@@ -1,5 +1,7 @@
-ip_addr1 = '172.16.1.1'
-ip_addr2 = '172.31.17.99'
-ip_addr3 = '217.88.17.1'
+ip_addr1 = '192.168.1.1'
+port1 = 80
+ip_addr2 = '192.168.2.1'
+port2=443
 
-print(ip_addr1, ip_addr2, ip_addr3)
+print(f"My IP address is: {ip_addr1:^20} {port1:^8}") #multiple variables in one print
+print(f"My IP address is: {ip_addr2:^20} {port2:^8}")
